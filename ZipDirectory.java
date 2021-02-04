@@ -1,21 +1,12 @@
 import java.io.*;
-// import java.nio.file.*;
 import java.util.zip.*;
-// import java.nio.file.attribute.*;
 
 public class ZipDirectory {
-    // static String source;
-    // static String output;
 
-    // public ZipDirectory(String Source, String Output){
-    //     source = Source;
-    //     output = Output;
-
-    // }
 
     public  static void mains(String source, String output) throws IOException {
         String sourceFile = source;
-        FileOutputStream fos = new FileOutputStream(output+".zip");
+        FileOutputStream fos = new FileOutputStream(output+".aes");
         ZipOutputStream zipOut = new ZipOutputStream(fos);
         File fileToZip = new File(sourceFile);
 
