@@ -1,4 +1,4 @@
-# Porn-Encrypter
+# file-Encrypter
 
 ***instructions***
 1: paste the code just out the directory you want to hide
